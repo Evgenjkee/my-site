@@ -1,0 +1,83 @@
+@font-face {
+	font-family: "Lateef-Regular";
+	src: url("../fonts/Lateef-Regular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+body {
+	box-sizing: border-box;
+	font-family: "Lateef-Regular";
+	font-style: normal;
+	font-size: 16px;
+	font-weight: normal;
+	color: black;
+	padding: 0;
+	margin: 0;
+}
+
+/* Headers styles start */
+
+.wrapper {
+	max-width: 1080px;
+	margin: 0 auto;
+}
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+.header-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 30px;
+}
+.nav-list {
+	display: flex;
+	flex-wrap: wrap;
+}
+.nav-item {
+	margin-right: 60px;
+	list-style: none;
+}
+.nav-item:last-child {
+	margin-right: 0;
+}
+.nav-link {
+	text-decoration: none;
+	font-size: 18px;
+	line-height: 22px;
+	color: white;
+	transition: .4s;
+}
+.nav-link:hover , .nav-link:focus , .nav-link:active {
+	color: #f3473b;
+}
+
+/* Headers styles end */
+
+/* Intro styles start */
+
+.intro {
+	height: 100vh;
+	background: url(../img/introbg.jpg) no-repeat center;
+	background-size: cover;
+	padding-top: 263px;
+}
+.intro-title {
+	max-width: 450px;
+	color: white;
+	font-weight: 500;
+	font-size: 38px;
+	line-height: 52px;
+	margin-bottom: 20px;
+}
+.intro-subtitle {
+	max-width: 380px;
+	color: white;
+	font-size: 16px;
+	line-height: 24px;
+}
+/* Intro styles end */
