@@ -62,7 +62,7 @@ body {
 
 .intro {
 	height: 100vh;
-	background: url(../img/introbg.jpg) no-repeat center;
+	background: url(introbg.jpg) no-repeat center;
 	background-size: cover;
 	padding-top: 263px;
 }
